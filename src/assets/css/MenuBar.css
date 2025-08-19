@@ -1,0 +1,12 @@
+.menu_bar{
+    width:100%;
+    height: 12vh;
+    background:transparent; 
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(8px);
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 1px solid #1b2333;
+    display: flex;
+    flex-direction: row;
+}
