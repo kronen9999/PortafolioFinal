@@ -1,6 +1,7 @@
 import React from 'react'
 import MenuBar from './components/MenuBar'
 import './index.css'
+import "./App.css"
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className='container_content'>
       <MenuBar />
       <section className='About_Section' id='About'>
-
+       
       </section>  
       <section className='Projects_Section' id='Projects'>
 
