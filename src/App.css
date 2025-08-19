@@ -7,7 +7,6 @@
 .About_Section{
     width: 100%;
     height: 100vh;
-    background-color: rebeccapurple;
     z-index: 100;
     display: flex;
     flex-direction: row;
@@ -15,11 +14,120 @@
     justify-content: center;
 }
 
-.About_Section div{
-background-color: red;
-width: 40vw;
+.About_Section .d1,.About_Section .d2{
+width: 35vw;
 height: 50vh;
+display: flex;
+flex-direction: column;
+}
+.About_Section .d1{
+    margin-right: 2vw;
+}
 
+.About_Section .d2{
+    margin-left: 2vw;
+    background:rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+ padding: 2vw;
+ border-radius: .8vw;
+ border: 1px solid #1e2a3d;
+ height: 40vh !important;
+}
+
+.About_Section .d1 .p1{
+    color: #e2e8f0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.About_Section .d1 .p1 .span{
+    color:  #3474e7;
+}
+
+.About_Section .d1 .p2{
+    color: #7a8f8e;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.About_Section .d1 .div_Refs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.About_Section .d1 .div_Refs{
+    width: 100%;
+    height: auto;
+    margin-top: 4vh;
+}
+
+
+.About_Section .d1 .div_Refs a{
+     text-decoration: none;
+     padding-top: 1.5vh;
+     padding-bottom: 1.5vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+     border: 1px solid #1e2a3d;
+     border-radius: .5vw;
+     color: #e0ddcc;
+     margin-right: 2vw;
+}
+
+.About_Section .d2 .p1{
+    color: #e2e8f0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.About_Section .d2 .p2{
+    color: #7a8f8e;
+    font-size: .9rem;
+    line-height: 1.5;
+    margin-top: 2vh;
+}
+.About_Section .d2 .p3{
+    color: #e2e8f0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.About_Section .d2 .Tecnologies{
+    margin-top: 1.5vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.About_Section .d2 .Tecnologies .pt{
+    color: #e0ddcc;
+  padding: .5vh;
+  border-radius: .5vw;
+  border: 1px solid #1e2a3d;
+  font-size: .9rem;
+  margin-bottom: 1vh;
+  margin-right: .5vw;
+}
+
+.About_Section .d2 hr{
+border: 1px solid #1e2a3d;
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.About_Section .d2 .p4{
+    color: #e2e8f0;
+    font-size: .9rem;
+    margin-top: 2vh;
 }
 
 .Projects_Section{

@@ -13,7 +13,7 @@ function App() {
       <section className='About_Section' id='About'>
        <div className='d1'>
        <p className='p1'>
-        Full Stack Developer
+        Full Stack <span className='span'>Developer</span>
        </p>
        <p className='p2'>
         Passionate about creating innovative web solutions that bridge the gap between beautiful design and robust functionality.
@@ -31,6 +31,9 @@ function App() {
         </p>
         <p className='p2'>
          I'm a passionate full stack developer with experience in building scalable web applications. I enjoy working with modern technologies and creating solutions that make a difference.
+        </p>
+        <p className='p3'>
+          Tech Stack
         </p>
         <div className='Tecnologies'>
           <p className='pt'>
@@ -71,7 +74,7 @@ function App() {
           </p>
         </div>
           <hr/>
-          <p className='p3'>
+          <p className='p4'>
             📍 Available for freelance projects and full-time opportunities
           </p>
        </div>
