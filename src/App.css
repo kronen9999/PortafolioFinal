@@ -4,3 +4,21 @@
     background-color: #0a0e1a;
     z-index: 10;
 }
+.About_Section{
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+    z-index: 100;
+}
+.Projects_Section{
+    width: 100%;
+    height: 100vh;
+    background-color: #4a90e2;
+    z-index: 100;
+}
+.Contact_Section{
+    width: 100%;
+    height: 100vh;
+    background-color: #50e3c2;
+    z-index: 100;
+}
