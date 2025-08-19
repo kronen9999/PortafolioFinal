@@ -9,7 +9,19 @@
     height: 100vh;
     background-color: rebeccapurple;
     z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+.About_Section div{
+background-color: red;
+width: 40vw;
+height: 50vh;
+
+}
+
 .Projects_Section{
     width: 100%;
     height: 100vh;
