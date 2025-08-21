@@ -252,8 +252,8 @@ Created a GPS tracking system integrated into a backpack for preschool childrenâ
         <div className='socialMedia'>
            <p className='p1'>Follow Me</p>
            <div className='SocialMediaIcons'>
-            <a href="https://github.com/kronen9999"><img src={github} alt="" /></a>
-            <a href=""><img src={linkedin} alt="" /></a>
+            <a href="https://github.com/kronen9999" target='_blank'><img src={github} alt="" /></a>
+            <a href="https://www.linkedin.com/in/steven-camacho-cisneros-16ab15354/" target='_blank'><img src={linkedin} alt="" /></a>
            </div>
         </div>
         <div className='Text'>
@@ -264,6 +264,10 @@ Created a GPS tracking system integrated into a backpack for preschool childrenâ
         </div>
         </div>
         </div>
+        <hr className='separator'/>
+        <p className='Pend'>
+       Designed and developed with modern technologies. Open to new opportunities.
+        </p>
       </section>
       </div>
       </div>
