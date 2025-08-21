@@ -8,6 +8,10 @@ import Img_SDME from './assets/Img_SDME.png'
 import IMG_BTI from './assets/IMG_BTI.png'
 import IMG_SMZR from './assets/IMG_SMZR.png'
 import IMGLoginDisplayMaster from './assets/IMGLoginDisplayMaster.png'
+import envelope from './assets/envelope.svg'
+import thelephone from './assets/telephone.svg'
+import geo from './assets/geo.svg'
+import linkedin from './assets/linkedin.svg'
 function App() {
   return (
     <>
@@ -188,9 +192,78 @@ Created a GPS tracking system integrated into a backpack for preschool childrenâ
             </div>
         </div>
       </section>
-
       <section className='Contact_Section' id='Contact'>
+        <p className='p1'>Get in <span>Touch</span></p>
+        <p className='p2'>Ready to work together? I'd love to hear about your project and how I can help bring it to life.</p>
+        <div className='PartsCotainer'>
+        <div className='SendMailContainer'>
+          <div className='SendMailNameEmail'>
+            <div className='SendMailName'>
+              <p className='p1'>Name</p>
+              <input type="text" placeholder='Your name' />
+            </div>
+            <div className='SendMailEmail'>
+              <p className='p1'>Email</p> 
+              <input type="email" placeholder='Your email' />
+            </div>
+          </div>
+          <p className='p3'>Subjetc</p>
+          <input type="text" placeholder='Project discussion'  className='inputsubjetc'/>
+          <p className='p4'>Message</p>
+          <textarea name="" id="" cols="30" rows="10" placeholder='Tell me about your project' className='txaMessage'></textarea>
+          <button className='btnSendMessage'>Send Message</button>
+        </div>
+        <div className='InfoContainer'>
+        <div className='ContactInfo'>
+          <p className='p1'>
+            Contact Information
+          </p>
+          <div className='InfoItems'>
+            <div className='iconItem'>
+     <img src={envelope} alt="envelope" />
+            </div>
+            <div className='DescriptionItem'>
+              <p className='p2'>Email</p>
+              <p className='p3'>stacica22eneronkio@gmail.com</p>
+            </div>
 
+          </div>
+           <div className='InfoItems'>
+            <div className='iconItem'>
+            <img src={thelephone} alt="thelephone" />
+            </div>
+            <div className='DescriptionItem'>
+              <p className='p2'>Phone</p>
+              <p className='p3'>+(52)953-240-7559</p>
+            </div>
+
+          </div>
+           <div className='InfoItems'>
+            <div className='iconItem'>
+        <img src={geo} alt="geo" />
+            </div>
+            <div className='DescriptionItem'>
+              <p className='p2'>Location</p>
+              <p className='p3'>Oaxaca,Mexico</p>
+            </div>
+
+          </div>
+        </div>
+        <div className='socialMedia'>
+           <p className='p1'>Follow Me</p>
+           <div className='SocialMediaIcons'>
+            <a href="https://github.com/kronen9999"><img src={github} alt="" /></a>
+            <a href=""><img src={linkedin} alt="" /></a>
+           </div>
+        </div>
+        <div className='Text'>
+          <p className='p1'>Let's Build Something Amazing</p>
+          <p className='p2'>
+           I'm always excited to work on new projects and collaborate with creative minds. Whether you have a clear vision or just an idea, let's discuss how we can bring it to life.
+          </p>
+        </div>
+        </div>
+        </div>
       </section>
       </div>
       </div>
