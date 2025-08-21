@@ -716,9 +716,44 @@ border-radius: .5vw;
     margin-bottom: 5vh;
  }
 
- .Pend{
+ .FinalInfo{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    background-color: rebeccapurple;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+
+.FinalInfo .pName{
     color: #e2e8f0;
-    font-size: .8rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 100%;
+    width: fit-content;
  }
+
+
+.FinalInfo .SocialMediaIcons{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.FinalInfo .SocialMediaIcons img{
+    filter: invert(1);
+    width: 2vw;
+    height: auto;
+    margin-left: 2vw;
+}
+
+.FinalInfo .pLast{
+    color: #e0ddcc;
+    font-size: .9rem;
+    text-align: center;
+    width: fit-content;
+    margin-top: 1vh;
+}

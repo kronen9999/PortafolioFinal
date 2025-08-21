@@ -264,10 +264,7 @@ Created a GPS tracking system integrated into a backpack for preschool childrenâ
         </div>
         </div>
         </div>
-        <hr className='separator'/>
-        <p className='Pend'>
-       Designed and developed with modern technologies. Open to new opportunities.
-        </p>
+        
       </section>
       </div>
       </div>
