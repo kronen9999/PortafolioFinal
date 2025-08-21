@@ -2,7 +2,12 @@ import React from 'react'
 import MenuBar from './components/MenuBar'
 import './index.css'
 import "./App.css"
-
+import github from './assets/github.svg'
+import Login from './assets/Login.png'
+import Img_SDME from './assets/Img_SDME.png'
+import IMG_BTI from './assets/IMG_BTI.png'
+import IMG_SMZR from './assets/IMG_SMZR.png'
+import IMGLoginDisplayMaster from './assets/IMGLoginDisplayMaster.png'
 function App() {
   return (
     <>
@@ -16,7 +21,7 @@ function App() {
         Full Stack <span className='span'>Developer</span>
        </p>
        <p className='p2'>
-        Passionate about creating innovative web solutions that bridge the gap between beautiful design and robust functionality.
+        Hi,My name is <span>Steven Camacho Cisneros</span> and i am a passionate about creating innovative web solutions that bridge the gap between beautiful design and robust functionality.
        </p>
        <div className='div_Refs'>
        <a href="#Projects">
@@ -80,7 +85,108 @@ function App() {
        </div>
       </section>  
       <section className='Projects_Section' id='Projects'>
-
+        <p className='p1'>
+          Featured <span className='span'>Projects</span>
+        </p>
+        <p className='p2'>
+         A selection of projects that showcase my skills in full stack development
+        </p>
+        <div className='Projects_Container'>
+          <div className='Project_Card'>
+         <img src={Login} alt="ImgLogin" />
+         <div className='Project_Info'>
+          <p className='Project_Title'>Mesoamerican cultures evaluation and study system</p>
+          <p className='Project_Description'>
+Project carried out with Java, focused on helping in the study of the subject of Mexican history, especially on the topic of Mesoamerican cultures for children and primary school teachers.</p>
+          <div className='Project_Technologies'>
+            <p className='pt'>java</p>
+          </div>
+          <a href="https://github.com/kronen9999/Sistema-de-evaluacion-y-estudio-de-culturas-mesoamericanas/" target='_blank' className='linkGit'>Code<img className='gitImage' src={github} alt="" /></a>
+         </div>
+            </div>
+            <div className='Project_Card'>
+         <img src={Img_SDME} alt="ImgSDME" />
+         <div className='Project_Info'>
+          <p className='Project_Title'>Dispensing system for women</p>
+          <p className='Project_Description'>
+Dispensing system made in Java, with connection to Arduino components and databases for storing information. Focused on supporting the needs of women in ITSAO</p>
+          <div className='Project_Technologies'>
+            <p className='pt'>java</p>
+            <p className='pt'>Arduino</p>
+            <p className='pt'>Mysql</p>
+          </div>
+          <a href="https://github.com/kronen9999/SistemaDispensador_Para_Mujeres/" target='_blank' className='linkGit'>Code<img className='gitImage' src={github} alt="" /></a>
+         </div>
+            </div>
+            <div className='Project_Card'>
+         <img src={IMG_BTI} alt="IMGBTI" />
+         <div className='Project_Info'>
+          <p className='Project_Title'>ITSAO Job Board System</p>
+          <p className='Project_Description'>
+Web platform to connect students with job recruiters, allowing employers to post vacancies and manage candidates,Designed to serve the needs of Instituto Tecnológico Superior de Acatlán de Osorio</p>
+          <div className='Project_Technologies'>
+            <p className='pt'>Html</p>
+            <p className='pt'>Css</p>
+            <p className='pt'>Javascript</p>
+            <p className='pt'>Php</p>
+            <p className='pt'>Mysql</p>
+          </div>
+          <a href="https://github.com/kronen9999/BolsaTrabajoITSAO" target='_blank' className='linkGit'>Code<img className='gitImage' src={github} alt="" /></a>
+         </div>
+            </div>
+           <div className='Project_Card'>
+         <img src={IMG_SMZR} alt="IMG_SMZR" />
+         <div className='Project_Info'>
+          <p className='Project_Title'>Women’s Health System for Rural Areas</p>
+          <p className='Project_Description'>
+ Developed a web application for rural clinics to monitor and register pregnant women during their pregnancy stage </p>
+          <div className='Project_Technologies'>
+            <p className='pt'>Html</p>
+            <p className='pt'>Css</p>
+            <p className='pt'>Javascript</p>
+            <p className='pt'>Php</p>
+            <p className='pt'>Mysql</p>
+          </div>
+          <a href="https://github.com/kronen9999/SistemaGestorMujeresEmbarazadas" target='_blank' className='linkGit'>Code<img className='gitImage' src={github} alt="" /></a>
+         </div>
+            </div>
+             <div className='Project_Card'>
+         <img src={IMGLoginDisplayMaster} alt="IMGLoginDisplayMaster" />
+         <div className='Project_Info'>
+          <p className='Project_Title'>Repair Workshop Management System (DM)</p>
+          <p className='Project_Description'>
+Designed and developed a web-based system for a real-world electronics repair workshop to manage customer devices, 
+repair statuses, and inventory  </p>
+          <div className='Project_Technologies'>
+            <p className='pt'>Html</p>
+            <p className='pt'>Css</p>
+            <p className='pt'>Javascript</p>
+            <p className='pt'>React</p>
+            <p className='pt'>Php</p>
+            <p className='pt'>Laravel</p>
+            <p className='pt'>Mysql</p>
+            <p className='pt'>MVC</p>
+          </div>
+          <a  target='_blank' className='linkGit'>This project is private<img className='gitImage' src={github} alt="" /></a>
+         </div>
+            </div>
+        </div>
+        <div className='OtherProjects_Container'>
+          <p className='p1'>Other <span className='span'>Projects</span></p>
+ <div className='Project_Card'>
+         <div className='Project_Info'>
+          <p className='Project_Title'>GPS-Enabled Smart Backpack</p>
+          <p className='Project_Description'>
+Created a GPS tracking system integrated into a backpack for preschool children’s safety</p>
+          <div className='Project_Technologies'>
+            <p className='pt'>Esp8266</p>
+            <p className='pt'>Php</p>
+            <p className='pt'>Mysql</p>
+          </div>
+          <a  className='linkGit'>This project is private<img className='gitImage' src={github} alt="" /></a>
+         </div>
+            </div>
+        </div>
       </section>
 
       <section className='Contact_Section' id='Contact'>
