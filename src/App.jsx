@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import MenuBar from './components/MenuBar'
 import './index.css'
 import "./App.css"
@@ -13,6 +14,29 @@ import thelephone from './assets/telephone.svg'
 import geo from './assets/geo.svg'
 import linkedin from './assets/linkedin.svg'
 function App() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'default_service',      // Tu Service ID
+        'template_cpqagp7',     // Tu Template ID
+        form.current,
+        'sbuI3ERRis_OnUUgi'     // Tu Public Key
+      )
+      .then(
+        () => {
+          alert('Message sent!');
+          form.current.reset();
+        },
+        (error) => {
+          alert('Failed to send message.');
+        }
+      );
+  };
+
   return (
     <>
      <div className='father_container'>
@@ -197,23 +221,25 @@ Created a GPS tracking system integrated into a backpack for preschool childrenâ
         <p className='p2'>Ready to work together? I'd love to hear about your project and how I can help bring it to life.</p>
         <div className='PartsCotainer'>
         <div className='SendMailContainer'>
-          <div className='SendMailNameEmail'>
-            <div className='SendMailName'>
-              <p className='p1'>Name</p>
-              <input type="text" placeholder='Your name' />
-            </div>
-            <div className='SendMailEmail'>
-              <p className='p1'>Email</p> 
-              <input type="email" placeholder='Your email' />
-            </div>
+          <form ref={form} onSubmit={sendEmail} className='formEmail'>
+              <div className='SendMailNameEmail'>
+                <div className='SendMailName'>
+                  <p className='p1'>Name</p>
+                  <input type="text" name="from_name" placeholder='Your name' required />
+                </div>
+                <div className='SendMailEmail'>
+                  <p className='p1'>Email</p>
+                  <input type="email" name="email_id" placeholder='Your email' required />
+                </div>
+              </div>
+              <p className='p3'>Subject</p>
+              <input type="text" name="subject" placeholder='Project discussion' className='inputsubjetc' required />
+              <p className='p4'>Message</p>
+              <textarea name="message" cols="30" rows="10" placeholder='Tell me about your project' className='txaMessage' required></textarea>
+              <button className='btnSendMessage' type="submit">Send Message</button>
+            </form>
           </div>
-          <p className='p3'>Subjetc</p>
-          <input type="text" placeholder='Project discussion'  className='inputsubjetc'/>
-          <p className='p4'>Message</p>
-          <textarea name="" id="" cols="30" rows="10" placeholder='Tell me about your project' className='txaMessage'></textarea>
-          <button className='btnSendMessage'>Send Message</button>
-        </div>
-        <div className='InfoContainer'>
+          <div className='InfoContainer'>
         <div className='ContactInfo'>
           <p className='p1'>
             Contact Information

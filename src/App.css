@@ -757,3 +757,35 @@ align-items: center;
     width: fit-content;
     margin-top: 1vh;
 }
+
+.Contact_Section .PartsCotainer .SendMailContainer form{
+    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .SendMailNameEmail{
+    width: 100%!important;
+    justify-content: space-between !important;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .inputsubjetc{
+    width: 100%!important;
+} 
+
+.Contact_Section .PartsCotainer .SendMailContainer form .p3,.Contact_Section .PartsCotainer .SendMailContainer form .p4{
+    width: 100% !important;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .txaMessage
+{
+    width: 100% !important;
+    min-height: 10vh;
+    max-height: 20vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .btnSendMessage{
+    width: 100% !important;
+}
