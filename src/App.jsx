@@ -40,9 +40,36 @@ function App() {
   return (
     <>
      <div className='father_container'>
+      <MenuBar />
+      <div className='background_effect1' dinamicElement="1">
+      </div>
+      <div className='background_effect2' dinamicElement="1">
+      </div>
+      <div className='background_effect3' dinamicElement="1">
+      </div>
+      <div className='background_effect4' dinamicElement="1">
+      </div>
+      <div className='background_effect5' dinamicElement="1">
+      </div>
+      <div className='background_effect6' dinamicElement="1">
+      </div>
+      <div className='background_effect7' dinamicElement="1">
+      </div>
+      <div className='background_effect8' dinamicElement="1">
+      </div>
+      <div className='background_effect9' dinamicElement="1">
+      </div>
+      <div className='background_effect10' dinamicElement="1">
+      </div>
+      <div className='background_effect11' dinamicElement="1">
+      </div>
+      <div className='background_effect12' dinamicElement="1">
+      </div>
+      <div className='background_effect13' dinamicElement="1">
+      </div>
       <div className='container_style'>
       <div className='container_content'>
-      <MenuBar />
+      
       <section className='About_Section' id='About'>
        <div className='d1'>
        <p className='p1'>
