@@ -178,7 +178,7 @@ Dispensing system made in Java, with connection to Arduino components and databa
          <div className='Project_Info'>
           <p className='Project_Title'>ITSAO Job Board System</p>
           <p className='Project_Description'>
-Web platform to connect students with job recruiters, allowing employers to post vacancies and manage candidates,Designed to serve the needs of Instituto Tecnológico Superior de Acatlán de Osorio</p>
+Web platform to connect students with job recruiters,Designed to serve the needs of Instituto Tecnológico Superior de Acatlán de Osorio</p>
           <div className='Project_Technologies'>
             <p className='pt'>Html</p>
             <p className='pt'>Css</p>
@@ -210,8 +210,7 @@ Web platform to connect students with job recruiters, allowing employers to post
          <div className='Project_Info'>
           <p className='Project_Title'>Repair Workshop Management System (DM)</p>
           <p className='Project_Description'>
-Designed and developed a web-based system for a real-world electronics repair workshop to manage customer devices, 
-repair statuses, and inventory  </p>
+Designed and developed a web-based system for a real-world electronics repair workshop to manage customer devices </p>
           <div className='Project_Technologies'>
             <p className='pt'>Html</p>
             <p className='pt'>Css</p>
