@@ -965,8 +965,8 @@ align-items: center;
 
 .background_effect4{
     position: absolute;
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     background-color: #0f23479c;
     transform: rotate(45deg);
     top: 140vh;
@@ -1034,17 +1034,19 @@ align-items: center;
     background-color: #0f23479c;
     transform: rotate(45deg);
     top: 430vh;
-    left:60vw;
+    left:25vw;
 }
+
 .background_effect12{
     position: absolute;
-    width: 20vw;
-    height: 20vw;
+    width: 10vw;
+    height: 10vw;
     background-color: #0f23479c;
     transform: rotate(45deg);
-    top: 660vh;
-    left:50vw;
+    top: 430vh;
+    left:30vw;
 }
+
 .background_effect13{
     position: absolute;
     width: 25vw;
