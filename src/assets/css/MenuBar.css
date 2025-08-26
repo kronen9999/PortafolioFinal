@@ -34,3 +34,15 @@
 .menu_bar ul li a.active {
   color: #3474e7;
 }
+
+@media (max-width: 600px) {
+    .menu_bar ul {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .menu_bar ul a {
+        margin: 0 2vw;
+        font-size: 1rem;
+    }
+}

@@ -856,7 +856,6 @@ border-radius: .5vw;
     display: flex;
     flex-direction: row;
     margin-bottom: 2vh;
-    background-color: rebeccapurple;
     align-items: center;
     justify-content: space-evenly;
  }
@@ -956,8 +955,8 @@ align-items: center;
 
 .background_effect3{
     position: absolute;
-    width: 15vw;
-    height: 15vw;
+    width: 25vw;
+    height: 25vw;
     background-color: #0f23479c;
     transform: rotate(45deg);
     top: 80vh;
@@ -1030,9 +1029,9 @@ align-items: center;
 
 .background_effect11{
     position: absolute;
-    width: 10vw;
-    height: 10vw;
-    background-color: #14470f9c;
+    width: 15vw;
+    height: 15vw;
+    background-color: #0f23479c;
     transform: rotate(45deg);
     top: 430vh;
     left:60vw;
@@ -1043,7 +1042,7 @@ align-items: center;
     height: 20vw;
     background-color: #0f23479c;
     transform: rotate(45deg);
-    top: 510vh;
+    top: 660vh;
     left:50vw;
 }
 .background_effect13{
@@ -1052,7 +1051,7 @@ align-items: center;
     height: 25vw;
     background-color: #0f23479c;
     transform: rotate(45deg);
-    top: 515vh;
+    top: 620vh;
     left:20vw;
 }
 
@@ -1264,6 +1263,394 @@ margin-bottom: 5vh;
     filter: invert(1);
     margin-left: 3vw;
 }
+
+.Contact_Section .p1{
+    color: #e2e8f0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Contact_Section .p1 span{
+    color: #3474e7;
+}
+
+.Contact_Section .p2{
+    color: #7a8f8e;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2vh;
+    width: 80vw;
+    margin-bottom: 5vh;
+}
+.Contact_Section .PartsCotainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer,.Contact_Section .PartsCotainer .InfoContainer{
+    width: 90vw;
+    height: auto;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+      background:rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #1e2a3d;
+  border-radius: 2vw;
+  margin-bottom: 2vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer p{
+color: #e0ddcc;
+font-size: .8rem;
+width: fit-content;
+font-weight: normal;
+margin-bottom: 1vh;
+}
+
+
+.Contact_Section .PartsCotainer .SendMailContainer .SendMailNameEmail
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.Contact_Section .PartsCotainer .SendMailContainer .SendMailNameEmail input:focus,.Contact_Section .PartsCotainer .SendMailContainer  .inputsubjetc:focus{
+    outline: none;
+    box-shadow:0px 0px 5px 1px rgba(143, 174, 231, 0.5);
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer .SendMailNameEmail div{
+    width: 100%;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer .SendMailNameEmail div input{
+    width: 100%;
+    height: 4vh;
+    background:rgba(31, 29, 87, 0.199);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #2b3e5e;
+  border-radius: 1vw;
+  color: #e0ddcc;
+  transition-property: box-shadow;
+  transition-duration: .5s;
+  box-shadow: 0 0 0 transparent;
+  margin-bottom: 2vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer .p3,.Contact_Section .PartsCotainer .SendMailContainer .p4{
+color: #e0ddcc;
+font-size: .8rem;
+width: 84%;
+font-weight: normal;
+margin-bottom: 1vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer  .inputsubjetc{
+ width: 84%;
+    height: 4vh;
+    background:rgba(31, 29, 87, 0.199);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #2b3e5e;
+  border-radius: 1vw;
+  color: #e0ddcc;
+  transition-property: box-shadow;
+  transition-duration: .5s;
+  box-shadow: 0 0 0 transparent;
+  margin-bottom: 2vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer .txaMessage{
+    width: 84%;
+    min-height: 5vh;
+    max-height: auto;
+    background:rgba(31, 29, 87, 0.199);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #2b3e5e;
+  border-radius: 1vw;
+  color: #e0ddcc;
+  transition-property: box-shadow;
+  transition-duration: .5s;
+  box-shadow: 0 0 0 transparent;
+  margin-bottom: 2vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer .txaMessage:focus{
+    outline: none;
+    box-shadow:0px 0px 5px 1px rgba(143, 174, 231, 0.5);
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer .btnSendMessage{
+    width: 84%;
+    background-color: #3474e7;
+    color: #e2e8f0;
+    border: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 1vw;
+    margin-top: 1vh;
+    transition: background-color 0.3s ease;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer .btnSendMessage:hover{
+    background-color: #285bbd;
+    cursor: pointer;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around ;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+.Contact_Section .PartsCotainer .InfoContainer .ContactInfo{
+width: 95%;
+height: 35%;
+display: flex;
+flex-direction: column;
+border:1px solid #1e2a3d;
+background:rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2vw;
+  padding: 1vw;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .socialMedia{
+    width: 95%;
+height: 15%;
+display: flex;
+flex-direction: column;
+border:1px solid #1e2a3d;
+background:rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2vw;
+  padding: 1vw;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .Text{
+  width: 95%;
+height: 25%;
+display: flex;
+flex-direction: column;
+border:1px solid #1e2a3d;
+background:rgba(14, 53, 179, 0.055);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2vw;
+  padding: 1vw;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .ContactInfo .p1{
+    color: #e2e8f0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    text-align: start;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .ContactInfo .InfoItems{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .ContactInfo .InfoItems .iconItem{
+width:6vh;
+height: 6vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid #1e2a3d;
+border-radius: 2vw;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .ContactInfo .InfoItems .DescriptionItem{
+    width: 80%;
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .ContactInfo .InfoItems .DescriptionItem .p2{
+    color: #ebebeb;
+    font-size: .8rem;
+    margin-left: 1vw;
+    margin-bottom: .5vh;
+    font-weight: bold;
+    width: 100%;
+    text-align: start;
+}
+
+.Contact_Section .PartsCotainer .InfoContainer .ContactInfo .InfoItems .DescriptionItem .p3{
+    color: #7a8f8e;
+    font-size: .8rem;
+    margin-left: 1vw;
+    margin-bottom: .5vh;
+}
+
+ .Contact_Section .PartsCotainer .InfoContainer .ContactInfo .InfoItems .iconItem img
+ {
+ filter: invert(1);
+ }
+
+ .Contact_Section .PartsCotainer .InfoContainer .socialMedia .p1{
+    color: #e2e8f0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    text-align: start;
+ }
+
+ .Contact_Section .PartsCotainer .InfoContainer .socialMedia a
+ {
+   border: 1px solid #1e2a3d;
+    border-radius: 2vw;
+    width: 6vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vh;
+ }
+  .Contact_Section .PartsCotainer .InfoContainer .socialMedia .SocialMediaIcons
+  {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 2vh;
+  }
+
+  .Contact_Section .PartsCotainer .InfoContainer .socialMedia .SocialMediaIcons a img{
+    filter: invert(1);
+  }
+
+ .Contact_Section .PartsCotainer .InfoContainer  .Text .p1{
+    color: #e2e8f0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    text-align: start;
+ }
+    .Contact_Section .PartsCotainer .InfoContainer  .Text .p2{
+        color: #7a8f8e;
+        font-size: .9rem;
+        line-height: 1.5;
+        text-align: start;
+        width: 100%;
+ }
+
+ .separator{
+    width: 100%;
+    height: 1px;
+    border: 1px solid #1e2a3d;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+ }
+
+ .FinalInfo{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+
+.FinalInfo .pName{
+    color: #e2e8f0;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    width: fit-content;
+ }
+
+
+.FinalInfo .SocialMediaIcons{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.FinalInfo .SocialMediaIcons img{
+    filter: invert(1);
+    width: 2vw;
+    height: auto;
+    margin-left: 2vw;
+}
+
+.FinalInfo .pLast{
+    color: #e0ddcc;
+    font-size: .9rem;
+    text-align: center;
+    width: fit-content;
+    margin-top: 1vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer {
+    margin-right: 0 !important;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form{
+    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .SendMailNameEmail{
+    width: 100%!important;
+    justify-content: space-between !important;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .inputsubjetc{
+    width: 100%!important;
+} 
+
+.Contact_Section .PartsCotainer .SendMailContainer form .p3,.Contact_Section .PartsCotainer .SendMailContainer form .p4{
+    width: 100% !important;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .txaMessage
+{
+    width: 100% !important;
+    min-height: 10vh;
+    max-height: 20vh;
+}
+
+.Contact_Section .PartsCotainer .SendMailContainer form .btnSendMessage{
+    width: 100% !important;
+}
+ 
 
 
 }
