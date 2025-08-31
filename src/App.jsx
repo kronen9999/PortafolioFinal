@@ -152,7 +152,7 @@ function App() {
          <div className='Project_Info'>
           <p className='Project_Title'>Mesoamerican cultures evaluation and study system</p>
           <p className='Project_Description'>
-Project carried out with Java, focused on helping in the study of the subject of Mexican history, especially on the topic of Mesoamerican cultures for children and primary school teachers.</p>
+Project carried out with Java, focused on helping in the study of the subject of Mexican history  for children and primary school teachers.</p>
           <div className='Project_Technologies'>
             <p className='pt'>java</p>
           </div>
